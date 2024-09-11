@@ -4,7 +4,7 @@ import os
 import subprocess
 
 os.environ['PIP_BREAK_SYSTEM_PACKAGES'] = '1'
-subprocess.call([ 'pip', 'install', 'inquirer', '-i', 'https://mirrors.aliyun.com/pypi/simple', '-q' ])
+subprocess.call([ 'pip', 'install', 'inquirer', '-i', 'https://pypi.tuna.tsinghua.edu.cn/simple', '-q' ])
 
 from facefusion import installer
 
